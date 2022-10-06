@@ -11,6 +11,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
   background-color: #1e3932;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 /* your code */
@@ -24,6 +27,7 @@ body > nav {
   justify-content: space-between;
   max-width: 50%;
   margin-left: 25%;
+  flex-direction: row;
 
 }
 label {
@@ -31,9 +35,25 @@ label {
   padding: 1%;
   margin-left: 25%;
   width: 50%;
+  margin-bottom: 10px;
+  border-radius: 4px;
 
 }
 section {
   border: 2px solid #d4e9e2;
+  width: 50%;
+  height: 30%;
+  margin-left: 25%;
+  border-radius: 4px;
+}
+section > .city-item {
+  background-color: #00754a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  text-align: right;
+  padding: 5px;
+  
 }
 
